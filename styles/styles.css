@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	font-weight: 500;
+	color: rgb(28, 39, 39);
+	margin: 0;
+	padding: 0;
+}
+.banner {
+	width: 100%;
+	background-color: dodgerblue;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+nav {
+	width: 100%;
+	display: flex;
+	padding: 3vh 0 3vh 0;
+	background-color: rgb(223, 224, 226);
+}
+footer{
+	width: 100%;
+	padding: 15vh 0 15vh 0;
+	background-color: rgb(28, 39, 39);
+	color: white;
+	margin: 5vh 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.highlights {
+	width: 50%;
+	margin: 10vh 0 0 0;
+}
+figure{
+	margin: 3vh 0 0 0;
+	padding: 0;
+}
+img {
+	width: 100%;
+	flex-grow: 2;
+	flex-shrink: 2;
+	margin: 0;
+	padding: 0;
+}
+aside {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 20%;
+	margin: 10vh 0 0 10vh;
+}
+
+h1 {
+	font-size: 3.5rem;
+	font-weight: 600;
+	display: flex;
+	width: 45%;
+	margin: 10vh 0 0 13vw;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+	display: flex;
+	width: 45%;
+	margin: 3vh 0 15vh 13vw;
+}
+h3 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #007bee;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+	padding: 0;
+	margin: 0 0 0 12vw;
+}
+li {
+	padding: 0;
+	margin: 0;
+}
+li a {
+	text-decoration: none;
+	color:rgb(28, 39, 39);
+	font-weight: 700;
+}
+footer a {
+	color: white;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex; 
+	justify-content: space-around;
+	align-items: center;
+}
+footer img{
+	width: 30%;
+	height: 20%;
+}
+#h3-tinted {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: dodgerblue;
+	margin: 0 0 5vh 0;
+	
+}
+section h4 {
+	font-size: 1.1rem;
+	font-weight: 300;
+	color: dodgerblue;
+	opacity: 70%;
+}
+p {
+	font-size: 0.8rem;
+	line-height:  1.75;
+}
+#p-slogan {
+	text-align: center;
+	width: 35%;
+	margin: 0;
+	padding: 5vh 0 5vh 0;
+}
+aside a {
+	font-size: 0.8rem;
+}
+#section-final {
+	margin: 7vh 0 0 0;
+}
